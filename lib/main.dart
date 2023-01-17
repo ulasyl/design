@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:proje/screens/first_screen.dart';
+import 'package:proje/screens/main_educator.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         ),
         scaffoldBackgroundColor: mainColor
       ),
-      home: const karsilama()
+      home: const mainEducator()
     );
   }
 }

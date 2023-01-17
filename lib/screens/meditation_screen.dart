@@ -37,7 +37,7 @@ class _meditationScreenState extends State<meditationScreen> {
                   )
               ),
               child: Column(children: [
-                Expanded(child: ClipRRect(borderRadius: BorderRadius.all(Radius.circular(50)),child: Image.asset("assets/images/gorsel4.jpeg"),)),
+                Expanded(child: ClipRRect(borderRadius: BorderRadius.all(Radius.circular(20)),child: Image.asset("assets/images/gorsel4.jpeg"),)),
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical:10.0),
                   child: Text("Müziğin Adı",style: Theme.of(context).textTheme.headline6,),
