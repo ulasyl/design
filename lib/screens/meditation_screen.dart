@@ -30,7 +30,7 @@ class _meditationScreenState extends State<meditationScreen> {
               padding: EdgeInsets.all(containerPadding),
               height: 400,
               decoration: BoxDecoration(
-                gradient: LinearGradient(colors: [Colors.orange,sixthColor], begin: Alignment.topCenter),
+                gradient: LinearGradient(colors: [Color.fromARGB(255, 217, 217, 217),sixthColor], begin: Alignment.topCenter), 
                 borderRadius: const BorderRadius.only(
                   topLeft: Radius.circular(20),
                   topRight: Radius.circular(20)

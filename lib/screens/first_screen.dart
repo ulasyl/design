@@ -35,7 +35,7 @@ class _karsilamaState extends State<karsilama> {
                     ),),
                   ),
                   AspectRatio(
-                    aspectRatio: 16/15,
+                    aspectRatio: 16/9,
                     child: Image.asset("assets/images/gorsel1.png",height: 300)), 
                   const Padding(
                     padding: EdgeInsets.symmetric(vertical: 20.0),
