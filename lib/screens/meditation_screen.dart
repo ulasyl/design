@@ -4,6 +4,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:proje/common/appBar.dart';
 import 'package:proje/common/appBarBack.dart';
 import 'package:proje/main.dart';
+import 'package:proje/screens/responsive.dart';
 
 import '../widgets/primary-button.dart';
 
@@ -102,7 +103,7 @@ class _meditationScreenState extends State<meditationScreen> {
            ),
            const Expanded(
             flex:2, 
-            child: primaryButton("Şimdi çal",null),
+            child: primaryButton("Şimdi çal",responsive()),
           )
           ]),
         )]),

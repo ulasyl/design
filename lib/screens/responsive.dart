@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:proje/screens/main_educator.dart';
 import 'package:proje/screens/main_screen.dart';
 import 'package:proje/screens/meditation_screen.dart';
 
@@ -34,10 +35,16 @@ class _responsiveState extends State<responsive> {
       return const AnaEkran();
     }else if(kontrol == "tablet"){
       return const AnaEkran();
-    }else if(kontrol == "desktop" || kontrol == "large"){
+    }else if(kontrol == "desktop"){
       return Row(children: const [
         Expanded(child: AnaEkran()),
         Expanded(child: meditationScreen())
+      ],);
+    }else if(kontrol == "large"){
+      return Row(children: const [
+        Expanded(child: AnaEkran()),
+        Expanded(child: meditationScreen()),
+        Expanded(child: mainEducator())
       ],);
     }
     return const Scaffold();

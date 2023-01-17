@@ -3,6 +3,7 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:proje/common/appBarBack.dart';
 import 'package:proje/main.dart';
+import 'package:proje/screens/responsive.dart';
 import 'package:proje/widgets/primary-button.dart';
 
 class mainEducator extends StatefulWidget {
@@ -32,7 +33,7 @@ class _mainEducatorState extends State<mainEducator> {
           ),
           Padding(
             padding: const EdgeInsets.only(bottom:30.0),
-            child: primaryButton("Mesaj Gönder",null),
+            child: primaryButton("Mesaj Gönder",responsive()),
           ),
           Container(
             width: MediaQuery.of(context).size.width,
